@@ -32,8 +32,8 @@ namespace Snake
             {
                 case Direction.RIGHT: x += offset; break;
                 case Direction.LEFT: x -= offset; break;
-                case Direction.UP: y += offset; break;
-                case Direction.DOWN: y -= offset; break;
+                case Direction.UP: y -= offset; break;
+                case Direction.DOWN: y += offset; break;
             }
         }
 
